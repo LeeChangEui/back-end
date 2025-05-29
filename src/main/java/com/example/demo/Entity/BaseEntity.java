@@ -1,5 +1,6 @@
 package com.example.demo.Entity;
 
+import com.example.demo.Dto.Request.UserRequestDto;
 import jakarta.persistence.EntityListeners;
 import jakarta.persistence.MappedSuperclass;
 import lombok.Getter;
@@ -19,4 +20,8 @@ public abstract class BaseEntity {
 
     @LastModifiedDate
     private LocalDateTime updatedDate;
+
+
+
+
 }
